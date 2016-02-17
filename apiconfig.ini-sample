@@ -1,0 +1,17 @@
+[General]
+; Miliseconds delay for every request (500ms recommended)
+Delay: 500
+
+[API]
+; Host address for Crest API server (IP or resolvable hostname)
+Host: 127.0.0.1
+; Port number where the Crest API listens to
+Port: 8080
+; Protocol for the api: http/https
+Proto: http
+; Path to the API (default: /crest/v1/api)
+Path: /crest/v1/api
+
+[Logging]
+; Enable verbose logging: yes/no
+Verbose: Yes
